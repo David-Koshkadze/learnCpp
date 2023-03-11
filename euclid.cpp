@@ -18,7 +18,6 @@ int main() {
     cout << a << endl;
   } else {
     // დავწერე შემოკლებით, while ციკლის გამოყენებით;
-
     while (b > 0) {
         int r = a % b;
         a = b;
