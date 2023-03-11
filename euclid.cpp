@@ -6,10 +6,13 @@ int main() {
   int a;
   int b;
 
-  cout << "Enter-two integer numbers: " << endl;
-  scanf("%d %d", &a, &b);
+  cout << "Enter first number: " << endl;
 
-  cin >> a >> b;
+  cin >> a;
+
+  cout << "Enter second number: " << endl;
+
+  cin >> b;
 
   while (b > 0) {
     int r = a % b;
