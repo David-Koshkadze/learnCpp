@@ -14,13 +14,17 @@ int main() {
 
   cin >> b;
 
-  // დავწერე შემოკლებით, while ციკლის გამოყენებით;
+  if (a == b) {
+    cout << a << endl;
+  } else {
+    // დავწერე შემოკლებით, while ციკლის გამოყენებით;
 
-  while (b > 0) {
-    int r = a % b;
-    a = b;
-    b = r;
+    while (b > 0) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+
+    cout << a << endl;
   }
-
-  cout << a << endl;
 }
