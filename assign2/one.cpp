@@ -73,6 +73,7 @@
 //     cout << "Sapasuri: " << sapasuri << endl;
 // }
 
+// 2
 
 // #include <iostream>
 // #include <stdlib.h>
@@ -108,3 +109,101 @@
 //     return 0;
 // }
 
+// 3
+
+// #include <iostream>
+// #include <stdlib.h>
+
+// using namespace std;
+
+// int main() {
+//     int n;
+//     cout << "Enter any number from 1 to 5: " << '\n';
+//     cin >> n;
+
+//     switch (n) {
+//         case 1:
+//             cout << "One" << endl;
+//             break;
+//         case 2:
+//             cout << "Two" << endl;
+//             break;
+//         case 3:
+//             cout << "Three" << endl;
+//             break;
+//         case 4:
+//             cout << "Four" << endl;
+//             break;
+//         case 5:
+//             cout << "Five" << endl;
+//             break;
+//         default:
+//             cout << "Invalid input!" << endl;
+//             break;
+//     }
+
+//     return 0;
+
+// }
+
+// 4
+
+// #include <iostream>
+// #include <stdlib.h>
+
+// using namespace std;
+
+// int main() {
+//     char symbol;
+
+//     cout << "Enter a symbol (*, %, &, @, $): ";
+//     cin >> symbol;
+
+//     switch (symbol) {
+//         case '*':
+//             cout << "Asterisk" << endl;
+//             break;
+//         case '%':
+//             cout << "Percent" << endl;
+//             break;
+//         case '&':
+//             cout << "Ampersand" << endl;
+//             break;
+//         case '@':
+//             cout << "At sign" << endl;
+//             break;
+//         case '$':
+//             cout << "Dollar sign" << endl;
+//             break;
+//         default:
+//             cout << "Invalid input!" << endl;
+//             break;
+//     }
+
+//     return 0;
+// }
+
+// 5
+
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+int main() {
+    int jami = 0;
+    int namravli = 1;
+    int sashualo = 0;
+
+    for (int i = 1; i < 15; i++) {
+        jami = jami + i;
+        namravli = namravli * i;
+    }        
+
+    sashualo = jami / 15;
+
+    cout << "Jami: " << jami << '\n';
+    cout << "Namravli: " << namravli << '\n';
+    cout << "Sashualo: " << sashualo << '\n';
+
+}
