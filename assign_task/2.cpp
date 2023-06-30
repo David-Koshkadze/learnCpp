@@ -3,7 +3,7 @@
 #include <ctime>
 #include <cstring>
 
-void sortArrayDescending(int *arr, int size)
+void sortArrayDescending(int *arr, int size) // bubble sort
 {
   for (int i = 0; i < size - 1; ++i)
   {
