@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int euclid(int * arr);
+
 int main() {
   int a;
   int b;
